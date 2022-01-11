@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+About
+{% endblock %}
+
+
+{% block content %}
+
+<div id="banner" class="banner full-screen-mode parallax">
+<br><br><br><br>
+
+      <div id="about" class="about-main pad-top-100 pad-bottom-100">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                          <h2 class="block-title"> About Us </h2>
+                          <h3>IT STARTED, QUITE SIMPLY, LIKE THIS...</h3>
+                          <p> The Cheesecake Factory story begins in Sokoto, Nigeria in the 2004. Abubakar Aliyu
+                              found a recipe in the local that would inspire hir “Original” Slice Bread.
+                              Everyone loved his recipe so much that he decided to open a small
+                              Bakery. He eventually expanded to owning one of the most successful food frenchise in the
+                              Northern part of Nigeria.  </p>
+                      </div>
+                  </div>
+                  <!-- end col -->
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                          <div class="about-images">
+                              <img class="about-main" src="{% static 'images/about-main.jpg' %}" alt="About Main Image">
+                              <img class="about-inset" src="{% static 'images/about-inset.jpg' %}" alt="About Inset Image">
+                          </div>
+                      </div>
+                  </div>
+                  <!-- end col -->
+              </div>
+              <!-- end row -->
+          </div>
+          <!-- end container -->
+      </div>
+
+
+
+
+
+        <!-- end container -->
+    </div>
+    <!-- end banner -->
+
+{% endblock %}
